@@ -1,7 +1,7 @@
 // items in the block
 let hourBlockChildren = $(".time-block");
 
-// download event list from storage
+// download event list
 let getEventList = () => JSON.parse(localStorage.getItem("events")) || [];
 
 // set up variable to compare against
@@ -15,7 +15,7 @@ let getCompareID = () => {
   }
 };
 
-// setup the timer to call setPastPresent() to update the page every hour
+// to update the page every hour
 function setUpdateHoursTimer() {
   let timeLength;
   let minutesToNextHour = 60 - moment().minute();
