@@ -1,4 +1,4 @@
-// items in the block
+// items selection 
 let hourBlockChildren = $(".time-block");
 
 // download event list
@@ -15,7 +15,7 @@ let getCompareID = () => {
   }
 };
 
-// to update the page every hour
+// to update the page
 function setUpdateHoursTimer() {
   let timeLength;
   let minutesToNextHour = 60 - moment().minute();
