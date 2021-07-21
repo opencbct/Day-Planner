@@ -1,4 +1,4 @@
-// select all items in the hour block
+// items in the block
 let hourBlockChildren = $(".time-block");
 
 // download event list from storage
