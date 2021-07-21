@@ -23,7 +23,7 @@ function setUpdateHoursTimer() {
   // set timeLength to countdown to the next hour
   timeLength = minutesToNextHour * 60000; // convert min to ms
 
-  // start timer (probably don't need the variable)
+  // start timer
   let updateHourTimer = setInterval(() => {
     timeLength = 3600000; // reset interval to hourly
     console.log("in interval", timeLength);
