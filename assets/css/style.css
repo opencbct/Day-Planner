@@ -9,14 +9,14 @@ textarea {
   border: none;
   resize: none;
   color: #000000;
-  border-left: 1px solid black;
+  border-left: 1px solid blue;
   padding: 10px;
 }
 
 .jumbotron {
   text-align: center;
   background-color: transparent;
-  color: black;
+  color: ORANGE;
   border-radius: 0;
   border-bottom: 10px solid black;
 }
@@ -44,7 +44,7 @@ textarea {
 
 .past {
   background-color: #d3d3d3;
-  color: white;
+  color: lightgreen;
 }
 
 .present {
